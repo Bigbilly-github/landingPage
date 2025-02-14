@@ -1,6 +1,6 @@
 
 import plane from '../svg/category/plane.svg'
-import rectangle from '../svg/category/Rectangle 157.svg'
+
 import satellite from '../svg/category/satellite-dish.svg'
 import mic from '../svg/category/Group 50.svg'
 import settingslogo from '../svg/category/Group 49.svg'
@@ -33,7 +33,7 @@ function  Category (){
 
     return(
         <>
-            <section className="w-full h-auto pt-[197px] pl-[134px] pr-[58px]" >
+            <section className="w-full h-auto pt-[197px] pl-[134px] pr-[58px] sm:bg-[red] md:bg-[blue] lg:bg-[green] xl:bg-[orange]" >
                 <div className="w-[1228px] h-[525px] ">
                     <div className="flex items-center flex-col mb-[108px]">
                         <p className="font-poppins text-[18px] font-semibold text-[#5E6282]">
