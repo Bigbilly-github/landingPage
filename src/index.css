@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Open Sans" ;
-  --font-poppins: "Poppins" ;
-  --font-volx: "Volkhov" ;
+
+    
+      --font-sans: "Open Sans" ;
+      --font-poppins: "Poppins" ;
+      --font-volx: "Volkhov" ;
+
+    
+  
+   
+
+  
+
 }
 
 
