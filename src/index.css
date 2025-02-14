@@ -2,6 +2,8 @@
 
 @theme {
   --font-sans: "Open Sans" ;
+  --font-poppins: "Poppins" ;
+  --font-volx: "Volkhov" ;
 }
 
 
@@ -10,6 +12,8 @@ body{
   background-repeat: no-repeat no-repeat;
   background-position: top right,  1229px 966px;
   height: 8000px;
+  padding-top: 100px;
+  background-color: #FFFFFF;
   
 
 }
