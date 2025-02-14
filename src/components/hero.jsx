@@ -7,8 +7,8 @@ function Hero (){
 
     return(
         <>
-         <section  className="w-full h-[100px] flex justify-center ">
-            <div className="w-[1200px] h-[764px]  flex items-center  ml-[45px]">
+         <section  className="w-full h-auto flex justify-center sm:bg-[red] md:bg-[blue] lg:bg-[green] xl:bg-[orange] ">
+            <div className="w-[1200px] h-[764px]  flex items-center jus ml-[45px]">
                 <div className='w-[630px] h-[535px]'>
                         <p className='w-[410px] h-[30px] font-poppins font-bold text-[20px] tracking-normal text-[#DF6951]'>
                             BEST DESTINATIONS AROUND THE WORLD
@@ -31,7 +31,7 @@ function Hero (){
                             </p>
                         </div>
                 </div>
-                <div className='w-[783px] h-[764px] -ml-[200px] bg-[url("/src/svg/hero/plane.svg")]  bg-no-repeat bg-auto bg-[100%_20%]  '>
+                <div className=' hidden md:flex w-[783px]  h-[764px] -ml-[200px] bg-[url("/src/svg/hero/plane.svg")]  bg-no-repeat bg-auto bg-[100%_20%]  '>
                         <img src={traveller} alt="image of a traveller" className='w-[100%] h-[100%] bg-[url("/src/svg/hero/plane.svg")] bg-no-repeat bg-auto bg-[23%_8%]     '  />
 
 
