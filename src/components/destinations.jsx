@@ -30,7 +30,7 @@ function Destinations (){
 
     return(
         <>
-            <section className="w-full h-auto pt-[100px] pl-[134px] pr-[58px] b" >
+            <section className="w-full h-auto flex justify-center mt-[123px]" >
                 <div className="w-[1228px] h-[525px]  ">
                     <div className="flex items-center flex-col  mb-[60px]">
                         <p className="font-poppins text-[18px] font-semibold text-[#5E6282]">
@@ -41,7 +41,7 @@ function Destinations (){
                         </h1>
                     </div>
 
-                 <div className='flex   justify-center bg-[url("/src/svg/destinations/decore.svg")]  bg-no-repeat bg-auto bg-[88%_30%] '> 
+                 <div className='flex  justify-center bg-[url("/src/svg/destinations/decore.svg")]  bg-no-repeat bg-auto bg-[88%_30%] '> 
                         {DestinationsArray.map((destination)=> 
                         <div  className='w-[314px] h-[457px]  relative rounded-[24px]'> 
                                     

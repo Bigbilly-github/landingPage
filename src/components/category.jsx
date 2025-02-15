@@ -33,18 +33,18 @@ function  Category (){
 
     return(
         <>
-            <section className="w-full h-auto pt-[197px] pl-[134px] pr-[58px] sm:bg-[red] md:bg-[blue] lg:bg-[green] xl:bg-[orange]" >
-                <div className="w-[1228px] h-[525px] ">
-                    <div className="flex items-center flex-col mb-[108px]">
-                        <p className="font-poppins text-[18px] font-semibold text-[#5E6282]">
+            <section className="w-full lg:h-auto sm:h-[1600px] h-[1350px] flex justify-center mt-[97px] xl:mb-o  mb-[100px] " >
+                <div className="xl:w-[1228px] xl:h-[525px] w-[50vw] flex flex-col items-center">
+                    <div className=" flex items-center flex-col xl:mb-[108px] mb-[50px]">
+                        <p className="font-poppins lg:text-[20px] text-[18px] font-semibold text-[#5E6282]">
                         CATEGORY
                         </p>
-                        <h1 className="font-volx text-[50px] font-bold text-[#14183E]">
+                        <h1 className="font-volx xl:text-[50px] lg:text-[45px] md:text-[35px]  sm:text-[28px]    text-[20px] font-bold text-[#14183E]">
                         We Offer Best Services
                         </h1>
                     </div>
-                    <div className="w-auto h-auto flex  gap-[30px]">
-                       { categoryArray.map((category,index)=> <div className="w-[267px] h-[314] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  items-center gap-[10px]   ">
+                    <div className="xl:w-[1228px] h-[1200px] xl:auto sm:h-auto justify-between lg:w-[800px] lg:bg-[red] lg:grid lg:grid-cols-2 xl:flex xl:justify-between xl:flex-row  flex flex-col gap-[50px]  ">
+                       { categoryArray.map((category,index)=> <div className="  sm:w-[367px] w-[267px] sm:h-[314px] h-[314px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  items-center justify-center gap-[10px]   ">
                             <div className='w-[137px] h-[95px]'>
                                 <img src={category.img} alt="image of an airplane" className='w-[100%] h-[100%]'/>
                             </div>
