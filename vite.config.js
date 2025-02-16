@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: '/travel-agency-landing-page/', 
+  base: '/landingPage/', 
 })
