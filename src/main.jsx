@@ -8,7 +8,7 @@ import Homepage from './pages/homepage.jsx'
 
 const router =  createBrowserRouter([
   
-  { path: "/",
+  { path: "/travel-agency-landing-page/",
     element: <Homepage/>,
     errorElement: <div>404 Not Found</div>
   },
