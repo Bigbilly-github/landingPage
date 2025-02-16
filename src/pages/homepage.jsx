@@ -1,6 +1,7 @@
 import BookingDetails from "../components/bookingdetails"
 import Category from "../components/category"
 import Destinations from "../components/destinations"
+import Footer from "../components/footer"
 import Header from "../components/header"
 import Hero from "../components/hero"
 import Sponsors from "../components/sponsors"
@@ -20,6 +21,7 @@ function Homepage () {
                  <Testimonials/>
                  <Sponsors/>
                  <Subscribe/>
+                 <Footer/>
                  
 
           </main>
