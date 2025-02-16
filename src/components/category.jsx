@@ -33,7 +33,7 @@ function  Category (){
 
     return(
         <>
-            <section className="w-full lg:h-auto sm:h-[1600px] h-[1350px] flex justify-center mt-[97px] lg:mt-[197px]   mb-[100px] " >
+            <section className="w-full lg:h-auto md:h-[800px] sm:h-[1600px] h-[1350px] flex justify-center mt-[97px] lg:mt-[197px]   mb-[100px] " >
                 <div className="xl:w-[1228px] xl:h-[525px] w-[50vw] flex flex-col items-center">
                     <div className=" flex items-center flex-col xl:mb-[108px] mb-[50px]">
                         <p className="font-poppins lg:text-[20px] text-[18px] font-semibold text-[#5E6282]">
@@ -43,8 +43,8 @@ function  Category (){
                         We Offer Best Services
                         </h1>
                     </div>
-                    <div className="xl:w-[1228px] h-[1200px] xl:auto sm:h-auto justify-between lg:w-[800px]  lg:grid lg:grid-cols-2 xl:flex xl:justify-between xl:flex-row  flex flex-col gap-[50px]  ">
-                       { categoryArray.map((category,index)=> <div className="  sm:w-[367px] w-[267px] sm:h-[314px] h-[314px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  items-center justify-center gap-[10px]   ">
+                    <div className="xl:w-[1228px] h-[1200px]  xl:auto sm:h-auto justify-between md:w-[800px] lg:pl-0  md:pl-[50px] md:grid md:grid-cols-2 xl:flex xl:justify-between xl:flex-row  flex flex-col gap-[50px]  ">
+                       { categoryArray.map((category,index)=> <div className=" md:w-[300px]  lg:w-[367px] sm:w-[367px] w-[267px] sm:h-[314px] h-[314px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  items-center justify-center gap-[10px]   ">
                             <div className='w-[137px] h-[95px]'>
                                 <img src={category.img} alt="image of an airplane" className='w-[100%] h-[100%]'/>
                             </div>

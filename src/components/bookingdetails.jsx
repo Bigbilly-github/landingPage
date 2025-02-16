@@ -15,9 +15,9 @@ function BookingDetails () {
     return(
         <>
         <section className="w-full h-auto flex justify-center">
-            <div className="sm:w-[1158px] lg:h-[492px] h-[900px] lg:pl-[50px] xl:pl-0  mt-[100px] flex lg:flex-row flex-col lg:justify-between  items-center">
+            <div className="sm:w-[1000px] xl:w-[900px] lg:h-[492px] h-[900px] lg:pl-[50px] xl:pl-0  mt-[80px] flex lg:flex-row flex-col lg:justify-between  items-center">
                 <div>
-                    <p className='sm:w-[127px] text-center h-[27px] font-poppins font-semibold   text-[18px] text-[#5E6282]'>
+                    <p className='sm:w-[90%] lg:w-[137px] text-center h-[27px] font-poppins font-semibold   text-[18px] text-[#5E6282]'>
                         Easy and Fast
                     </p>
                     <h1 className='sm:w-[511px] sm:h-[130px] h-[80px] font-volx sm:font-bold font-extrabold  sm:text-[50px] text-[25px] text-[#14183E] sm:mt-[15px]  leading-[60px]'>
@@ -103,7 +103,7 @@ function BookingDetails () {
 
                     </div>
 
-                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute sm:right-0  -right-[20px] bottom-[70px] shadow-2xl '>
+                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute  -right-[60px] bottom-[70px] shadow-2xl '>
                         <div className='w-[50px] h-[50px]'>
                             <img src={pic} alt="a profile picture" className='rounded-[50%] w-[100%] h-[100%]' />
 
