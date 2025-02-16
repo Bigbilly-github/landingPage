@@ -1,7 +1,7 @@
 
-import romeimg from '../svg/destinations/rectangle 14.svg'
-import londonimg from '../svg/destinations/rectangle 15.svg'
-import europeimg from '../svg/destinations/rectangle 16.svg'
+import romeimg from '../svg/destinations/Rectangle 14.svg'
+import londonimg from '../svg/destinations/Rectangle 15.svg'
+import europeimg from '../svg/destinations/Rectangle 16.svg'
 
 function Destinations (){
 
