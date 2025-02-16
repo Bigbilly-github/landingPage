@@ -1,3 +1,4 @@
+import BookingDetails from "../components/bookingdetails"
 import Category from "../components/category"
 import Destinations from "../components/destinations"
 import Header from "../components/header"
@@ -12,6 +13,7 @@ function Homepage () {
                  <Hero/>
                  <Category/>
                  <Destinations/>
+                 <BookingDetails/>
 
           </main>
          
