@@ -1,7 +1,7 @@
 
 import social1 from '../svg/footer/Social1.svg'
-import social from '../svg/footer/Social.svg'
-import bgimg from '../svg/footer/Background.svg'
+import social from '../svg/footer/Social4.svg'
+import telegram from '../svg/footer/telegram.svg'
 import googleplay from '../svg/footer/google-play 1.svg'
 import appleplay from '../svg/footer/Group.svg'
 
@@ -38,8 +38,8 @@ function Footer () {
                 </div>
 
                 <div className='lg:flex flex-col w-[214px] items-start h-[147px] hidden'>
-                    <div className='flex pl-0'> 
-                        <img src={bgimg} alt="" />
+                    <div className='flex pl-0 items-center'> 
+                        <img src={telegram} alt="" className='w-[45px] h-[45px]' />
                         <img src={social} alt="" />
                         <img src={social1} alt="" />
 
