@@ -103,7 +103,7 @@ function BookingDetails () {
 
                     </div>
 
-                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute  -right-[60px] bottom-[70px] shadow-2xl '>
+                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute sm:right-[40px] md:right-[0px]  -right-[20px] bottom-[70px] shadow-2xl '>
                         <div className='w-[50px] h-[50px]'>
                             <img src={pic} alt="a profile picture" className='rounded-[50%] w-[100%] h-[100%]' />
 

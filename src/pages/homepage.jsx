@@ -3,6 +3,7 @@ import Category from "../components/category"
 import Destinations from "../components/destinations"
 import Header from "../components/header"
 import Hero from "../components/hero"
+import Sponsors from "../components/sponsors"
 import Testimonials from "../components/testimonials"
 
 function Homepage () {
@@ -16,6 +17,7 @@ function Homepage () {
                  <Destinations/>
                  <BookingDetails/>
                  <Testimonials/>
+                 <Sponsors/>
                  
 
           </main>

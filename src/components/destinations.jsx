@@ -46,7 +46,7 @@ function Destinations (){
                         <div  className='lg:w-[314px] md:w-[260px] sm:w-[230px]  w-[400px] sm:h-[457px] h-[300px]  relative rounded-[24px]'> 
                                     
                                 <img src={destination.img} alt="image of a city" className='w-[100%]'/>
-                                <div className='flex gap-[10px] rounded-bl-[24px]  pt-[20px] pl-[10px] md:-ml-[10px] sm:-ml-[15px] lg:-ml-[2px] pr-[10px] shadow-xl rounded-br-[24px] flex-col md:w-[173px] sm:w-[154px] w-[265px] lg:w-[209px] bg-[#FFFFFF] sm:h-[100px] h-[110px] ml-[13px] absolute  sm:bottom-[195px] -bottom-[90px] md:bottom-[135px] left-[54px]'>
+                                <div className='flex gap-[10px] rounded-bl-[24px]  pt-[20px] pl-[10px] md:-ml-[10px] sm:-ml-[15px] lg:-ml-[2px] pr-[10px] shadow-xl rounded-br-[24px] flex-col md:w-[173px] sm:w-[154px] w-[265px] lg:w-[209px] bg-[#FFFFFF] sm:h-[100px] h-[110px] ml-[13px] absolute   sm:bottom-[195px] -bottom-[90px] md:bottom-[135px] left-[54px]'>
                                     <div className='flex justify-between'>
                                             <p className='font-poppins font-medium text-[18px] leading-[124.5%] text-[#5E6282]'>
                                                 {destination.city}
