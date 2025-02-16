@@ -81,7 +81,7 @@ function BookingDetails () {
                             Trip To Greece
                             </p>
                             <p className='h-[20px] font-poppins mt-[13px] mb-0 font-medium text-[16px] leading-[124.5%] text-[#84829A]'>
-                            14-29 June by Dan
+                            14-29 June
                             </p>
 
                             <div className='flex gap-[18px] mt-[21px] mb-0'>
@@ -103,7 +103,7 @@ function BookingDetails () {
 
                     </div>
 
-                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute sm:right-[40px] md:right-[0px]  -right-[20px] bottom-[70px] shadow-2xl '>
+                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute sm:right-[40px] lg:-right-[60px] md:right-0  -right-[20px] bottom-[70px] shadow-2xl '>
                         <div className='w-[50px] h-[50px]'>
                             <img src={pic} alt="a profile picture" className='rounded-[50%] w-[100%] h-[100%]' />
 
