@@ -15,23 +15,23 @@ function BookingDetails () {
     return(
         <>
         <section className="w-full h-auto flex justify-center">
-            <div className="w-[1158px] h-[492px]  mt-[100px] flex justify-between">
+            <div className="sm:w-[1158px] lg:h-[492px] h-[900px] lg:pl-[50px] xl:pl-0  mt-[100px] flex lg:flex-row flex-col lg:justify-between  items-center">
                 <div>
-                    <p className='w-[127px] h-[27px] font-poppins font-semibold text-[18px] text-[#5E6282]'>
+                    <p className='sm:w-[127px] text-center h-[27px] font-poppins font-semibold   text-[18px] text-[#5E6282]'>
                         Easy and Fast
                     </p>
-                    <h1 className='w-[511px] h-[130px] font-volx font-bold text-[50px] text-[#14183E] mt-[15px] leading-[60px]'>
+                    <h1 className='sm:w-[511px] sm:h-[130px] h-[80px] font-volx sm:font-bold font-extrabold  sm:text-[50px] text-[25px] text-[#14183E] sm:mt-[15px]  leading-[60px]'>
                         Book your next trip 
                         in 3 easy steps
                     </h1>
 
-                    <div className='flex gap-[21px] items-center mt-[31px]'>
+                    <div className='flex gap-[21px] items-center sm:justify-start justify-center sm:mt-[31px]'>
                         <img src={logo1} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
-                            <p className='w-[254px] h-[20px] font-poppins font-bold text-[16px] text-[#5E6282]'>
+                            <p className='w-[254px] h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Choose Destination
                             </p>
-                            <p className='w-[327px] h-[40px] font-poppins text-[16px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            <p className='w-[327px] h-[40px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
                             Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit. Urna, tortor tempus. 
                             </p>
@@ -39,13 +39,13 @@ function BookingDetails () {
 
                     </div>
 
-                    <div className='flex gap-[21px] items-center mt-[31px]'>
+                    <div className='flex gap-[21px] items-center  sm:justify-start justify-center  mt-[31px]'>
                         <img src={logo2} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
-                            <p className='w-[254px] h-[20px] font-poppins font-bold text-[16px] text-[#5E6282]'>
+                            <p className='w-[254px] h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Make Payment
                             </p>
-                            <p className='w-[327px] h-[40px] font-poppins text-[16px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            <p className='w-[327px] h-[40px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
                             Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit. Urna, tortor tempus. 
                             </p>
@@ -53,13 +53,13 @@ function BookingDetails () {
 
                     </div>
 
-                    <div className='flex gap-[21px] items-center mt-[31px]'>
+                    <div className='flex gap-[21px] items-center  sm:justify-start justify-center mt-[31px]'>
                         <img src={logo3} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
-                            <p className='w-[254px] h-[20px] font-poppins font-bold text-[16px] text-[#5E6282]'>
+                            <p className='w-[254px] h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Reach Airport on Selected Date
                             </p>
-                            <p className='w-[327px] h-[40px] font-poppins text-[16px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            <p className='w-[327px] h-[40px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
                             Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit. Urna, tortor tempus. 
                             </p>
@@ -71,7 +71,7 @@ function BookingDetails () {
 
 
 
-                <div className='w-[485px] h-[459px]  flex flex-col justify-end  relative'>
+                <div className='sm:w-[485px] w-[380px] h-[459px]  flex flex-col justify-end  relative'>
                     <div className='w-[370px] h-[400px] bg-[#FFFFFF] rounded-[35px] flex flex-col gap-[26px] items-center pt-[20px] shadow-2xl'>
                         <div className='w-[321px] h-[161px] '>
                             <img src={image} alt="image of a lady at the maldives" />
@@ -81,7 +81,7 @@ function BookingDetails () {
                             Trip To Greece
                             </p>
                             <p className='h-[20px] font-poppins mt-[13px] mb-0 font-medium text-[16px] leading-[124.5%] text-[#84829A]'>
-                            14-29 June by Robbin joseph
+                            14-29 June by Dan
                             </p>
 
                             <div className='flex gap-[18px] mt-[21px] mb-0'>
@@ -103,7 +103,7 @@ function BookingDetails () {
 
                     </div>
 
-                    <div className='w-[263px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute right-0 bottom-[70px] shadow-2xl '>
+                    <div className='sm:w-[263px] w-[210px] h-[129px] pl-[20px] pt-[20px] grid grid-cols-[60px_1fr] bg-[#FFFFFF] rounded-[10px] absolute sm:right-0  -right-[20px] bottom-[70px] shadow-2xl '>
                         <div className='w-[50px] h-[50px]'>
                             <img src={pic} alt="a profile picture" className='rounded-[50%] w-[100%] h-[100%]' />
 
@@ -119,8 +119,8 @@ function BookingDetails () {
                                 <p className='font-poppins font-medium text-[14px] leading-[124.5%] -tracking-[5.5%] text-[#080809] mt-[14px] mb-0'>
                                 40% completed
                                 </p>
-                                <div className='w-[156px] h-[5px] rounded-[5px] bg-slate-300 mt-[10px]'>
-                                    <div className='w-[62.4px] h-[5px] bg-[blue] rounded-l-[5px]'>
+                                <div className='sm:w-[156px] w-[110px] h-[5px] rounded-[5px] bg-slate-300 mt-[10px]'>
+                                    <div className='sm:w-[62.4px] w-[52.4px] h-[5px] bg-[blue] rounded-l-[5px]'>
 
                                     </div>
                                 </div>

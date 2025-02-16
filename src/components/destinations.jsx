@@ -30,7 +30,7 @@ function Destinations (){
 
     return(
         <>
-            <section className="w-full sm:h-auto h-[1600px] flex justify-center  lg:mt-[223px] mt-[103px]  sm:bg-[red] md:bg-[blue] lg:bg-[green] xl:bg-[orange]  " >
+            <section className="w-full sm:h-auto h-[1600px] flex justify-center  lg:mt-[223px] mt-[103px]    " >
                 <div className="w-[1228px] h-[525px]  ">
                     <div className="flex items-center flex-col  mb-[60px]">
                         <p className="font-poppins lg:text-[20px] text-[18px]  font-semibold text-[#5E6282]">
