@@ -7,7 +7,7 @@ function Hero (){
 
     return(
         <>
-         <section  className="w-[100vw] h-auto flex justify-center mt-[50px] sm:mt-0  ">
+         <section  className="w-[100vw] h-auto flex justify-center mt-[50px] sm:mt-[20px] lg:mt-[60px]  ">
             <div className="xl:w-[1200px] w-[100vw] sm:h-[664px] h-[550px] flex md:flex-row items-center justify-center flex-col md:ml-[45px]">
             <div className='w-[630px] h-[535px]   md:items-start flex  flex-col items-center md:ml-[20px]  xl:ml-0'>
                         <p className='sm:w-[410px] w-[350px] h-[30px] font-poppins font-bold sm:text-[20px] text-[16px] tracking-normal text-[#DF6951]'>
