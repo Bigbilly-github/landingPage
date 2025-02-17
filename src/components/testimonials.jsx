@@ -30,7 +30,7 @@ function  Testimonials (){
 
     return(
         <>
-            <section className="w-full md:h-auto sm:h-[1500px] h-[1250px]  flex justify-center sm:mt-[137px] mt-[97px] lg:mt-[197px]   mb-[100px] " >
+            <section className="w-[100vw] md:h-auto sm:h-[1500px] h-[1250px]  flex justify-center sm:mt-[137px] mt-[97px] lg:mt-[197px]   mb-[100px] " >
                 <div className="xl:w-[1228px] xl:h-[525px] w-[50vw] flex flex-col items-center">
                     <div className=" flex items-center flex-col xl:mb-[58px] mb-[50px]">
                         <p className="font-poppins lg:text-[20px] text-[18px] font-semibold text-[#5E6282]">
