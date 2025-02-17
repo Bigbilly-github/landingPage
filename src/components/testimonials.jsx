@@ -36,7 +36,7 @@ function  Testimonials (){
                         <p className="font-poppins lg:text-[20px] text-[18px] font-semibold text-[#5E6282]">
                         TESTIMONIALS
                         </p>
-                        <h1 className="font-volx xl:text-[50px] lg:text-[39px] sm:text-[24px]    text-[16px] font-bold text-[#14183E]">
+                        <h1 className="font-volx xl:text-[50px] lg:text-[39px] sm:text-[24px]    text-[13px] font-bold text-[#14183E]">
                         What People Say About Us.
                         </h1>
                     </div>
