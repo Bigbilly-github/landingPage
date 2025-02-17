@@ -5,7 +5,7 @@ function Header () {
 
     return(
         <>
-        <header className="w-[100vw]h-[100px] flex justify-center items-center fixed top-0 z-20">
+        <header className="w-[100vw] h-[100px] flex justify-center items-center fixed top-0 z-20">
             <div className='flex w-[90vw]  lg:w-[1160px] h-[40px] items-center  justify-between  '>
                     <img src={logo} alt="image of the web logo" className='w-[114.91px] h-[33.99] xl:ml-0 lg:ml-[20px] md:mr-[222px]  xl:mr-[222px] lg:mr-[150px] '/>
 
