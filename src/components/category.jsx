@@ -11,22 +11,22 @@ function  Category (){
         {
             img: plane,
             maintext: "Best Flights",
-            paragraph:"Engrossed listening. Park gate sell they west hard for the."
+            paragraph:"Enjoy top airlines, unbeatable prices, and a seamless booking experience. "
         },
         {
             img: satellite,
             maintext: "Calculated Weather ",
-            paragraph:"Built Wicket longer admire do barton vanity itself do in it."
+            paragraph:"Stay ahead with accurate, real-time weather updates for your travels. Plan smarter, pack better."
         },
         {
             img: mic,
             maintext: "Local Events ",
-            paragraph:"Barton vanity itself do in it. Preferd to men it engrossed listening. "
+            paragraph:"From festivals to concerts, Discover exciting local events and make the most of every destination."
         },
         {
             img: settingslogo,
             maintext: "Customization",
-            paragraph:"We deliver outsourced aviation services for military customers "
+            paragraph:"Tailor your travel experience to fit your needs! customize every detail for a seamless and personalized journey."
         }
 
     ]

@@ -17,7 +17,7 @@ function Hero (){
                             Travel, enjoy and live a new and full life
                         </h1>
                         <p className='font-poppins font-medium sm:text-[16px] text-[14px] md:ml-0  ml-[50px] leading-[30px] sm:w-[467px] w-[390px] h-[90px]  text-[#5E6282]'>
-                            Built Wicket longer admire do barton vanity <br/> itself do in it. Preferred to sportsmen it sat <br/> listening. Park gate sell they west hard for the.
+                        Explore new places, embrace new experiences,<br/> and create unforgettable memories Travel, and <br/> live life to the fullest.The world is waiting for you!
                         </p>
                         <div className='flex mt-[34px] items-center w-[340px] sm:w-[410px]'>
                             <button className='cursor-pointer sm:w-[170px] w-[130px] h-[60px] bg-[#F1A501] rounded-[10px] font-sans font-medium sm:text-[18px] text-[15px] text-[#FFFFFF]'>

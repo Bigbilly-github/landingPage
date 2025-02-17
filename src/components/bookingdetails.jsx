@@ -31,34 +31,34 @@ function BookingDetails () {
                             <p className='sm:w-[254px] w-[200px]  h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Choose Destination
                             </p>
-                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
-                            Lorem ipsum dolor sit amet, consectetur. 
+                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[15px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            Explore top destinations and pick the perfect spot for your next adventure.
                             </p>
                         </div>
 
                     </div>
 
-                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] sm:mt-[15px] mt-[30px]'>
+                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] sm:mt-[30px] mt-[30px]'>
                         <img src={logo2} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
                         <p className='sm:w-[254px] w-[200px]  h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Make Payment
                             </p>
-                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
-                            Lorem ipsum dolor sit amet, consectetur. 
+                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px]  font-poppins sm:text-[15px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            Secure your booking quickly and safely with our hassle-free payment options.
                             </p>
                         </div>
 
                     </div>
 
-                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] sm:mt-[20px] mt-[30px]'>
+                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] sm:mt-[30px] mt-[30px]'>
                         <img src={logo3} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
                         <p className='sm:w-[254px] w-[250px]  h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Reach Airport on Selected Date
                             </p>
-                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
-                            Lorem ipsum dolor sit amet, consectetur. 
+                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[15px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            Arrive on time, and get ready to embark on your journey stress-free.
                             </p>
                         </div>
 

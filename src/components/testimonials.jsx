@@ -6,24 +6,24 @@ function  Testimonials (){
 
     const testimonyArray = [
         {
-            testimony: "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
-            testifier: "Mike taylor",
+            testimony: "“I booked a two-week trip to Europe with jadoo.I discovered hidden gems in Paris and Barcelona, and everything was organized perfectly.“",
+            testifier: "Sarah Thompson",
+            location:"New York, USA"
+        },
+        {
+            testimony: "“I’ve always wanted to explore Southeast Asia, and jadoo made my dream come true. I had fun with local experiences I wouldn’t have found on my own.“",
+            testifier: "Raj Patel",
             location:"Lahore, Pakistan"
         },
         {
-            testimony: "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
-            testifier: "Mike taylor",
-            location:"Lahore, Pakistan"
+            testimony: "“My honeymoon to the Maldives was magical, every detail was carefully planned, from flights to the overwater bungalow. I couldn't have asked for a better experience! “" ,
+            testifier: "Amina Yusuf",
+            location:"Lagos, Nigeria"
         },
         {
-            testimony: "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
-            testifier: "Mike taylor",
-            location:"Lahore, Pakistan"
-        },
-        {
-            testimony: "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
-            testifier: "Mike taylor",
-            location:"Lahore, Pakistan"
+            testimony: "“My trip to Peru and Brazil was unforgettable. From hiking Machu Picchu to enjoying the vibrant culture of Rio, everything was flawless.”",
+            testifier: "James O'Connor",
+            location:"Dublin, Ireland"
         }
 
     ]
@@ -40,10 +40,10 @@ function  Testimonials (){
                         What People Say About Us.
                         </h1>
                     </div>
-                    <div className="xl:w-[1228px] h-[1200px]  xl:auto sm:h-auto justify-between md:w-[800px] lg:pl-0 md:pl-[60px] md:grid md:grid-cols-2 md:gap-x-[20px] lg:gap-x-[50px]  xl:flex xl:justify-between xl:flex-row  flex flex-col gap-[50px] ">
-                       { testimonyArray.map((testimony,index)=> <div className=" lg:w-[367px] md:w-[300px] sm:w-[367px] w-[267px] sm:h-[314px] h-[314px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  pl-[20px]  items-center justify-center gap-[10px]   ">
+                    <div className="xl:w-[1228px] h-[1200px]  xl:auto sm:h-auto justify-between md:w-[800px] lg:pl-0 md:pl-[60px] md:grid md:grid-cols-2 md:gap-x-[20px] lg:gap-x-[50px]  xl:flex xl:justify-between xl:flex-row  flex flex-col xl:gap-[20px] gap-[50px] ">
+                       { testimonyArray.map((testimony,index)=> <div className=" xl:px-[20px] lg:w-[367px] md:w-[300px] sm:w-[367px] w-[267px] sm:h-[314px] h-[314px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  pl-[20px]  items-center justify-center gap-[10px]   ">
                            
-                            <h3 className='font-poppins sm:text-[15px] text-[12px] w-[250px] text-left sm:h-[150px] h-[120px] leading-[25px] font-semibold text-[#5E6282]'>
+                            <h3 className='font-poppins xl:text-[13px] sm:text-[15px] text-[12px] w-[250px] text-left sm:h-[150px] h-[120px] leading-[25px] font-semibold text-[#5E6282]'>
                            {testimony.testimony}
                             </h3>
                             <p className='font-poppins sm:text-[18px] text-[16px]  text-left font-semibold w-[250px] sm:h-[18px] h-[14px] leading-[26px] text-[#5E6282]'>
