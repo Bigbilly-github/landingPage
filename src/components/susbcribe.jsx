@@ -6,7 +6,7 @@ function Subscribe (){
 
     return(
         <>
-        <section className="w-[100vw] h-auto flex justify-center mt-[84px]">
+        <section className="w-[100vw] h-auto flex justify-center mt-[44px]">
             <div className="xl:w-[1170px] lg:w-[900px] md:w-[650px] sm:w-[550px] w-[350px] md:h-[350px] h-[300px] bg-[#DFD7F9]  rounded-tl-[95px] rounded-tr-[6px] rounded-br-[6px] rounded-bl-[6px]   flex flex-col items-center justify-center gap-[30px]  ">
                 <p className=' font-poppins font-semibold lg:text-[33px] md:text-[28px]  sm:text-[25px] text-[16px] leading-[54px] text-[#5E6282]'>
                 Subscribe to get updates about Jadoo

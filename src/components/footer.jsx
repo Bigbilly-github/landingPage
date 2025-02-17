@@ -10,7 +10,7 @@ function Footer () {
 
     return(
         <>
-          <section className="w-[100vw] h-auto flex justify-center mt-[196px]">
+          <section className="w-[100vw] h-auto flex justify-center mt-[146px]">
             <div className="xl:w-[1170px] lg:w-[900px] md:w-[650px] sm:w-[550px] w-[350px] h-[200px]  justify-between flex   ">
                 <div className="flex flex-col">
                     <p className='font-poppins font-medium text-[44px]'>

@@ -14,7 +14,7 @@ function BookingDetails () {
 
     return(
         <>
-        <section className="w-[100vw] h-auto flex justify-center">
+        <section className="w-[100vw] h-auto flex justify-center lg:mt-0 md:-mt-[40px] sm:-mt-[110px] -mt-[30px]">
             <div className="sm:w-[1000px] xl:w-[900px] lg:h-[492px] h-[800px] lg:pl-[50px] xl:pl-0  mt-[80px] flex lg:flex-row flex-col lg:justify-between  items-center">
                 <div className=' flex flex-col lg:items-start items-center  '>
                     <p className='sm:w-[90%] lg:w-[137px] w-[130px] text-center h-[27px] font-poppins font-semibold   text-[18px] text-[#5E6282]'>
