@@ -44,7 +44,7 @@ function  Category (){
                         </h1>
                     </div>
                     <div className="xl:w-[1228px] h-[1200px]  xl:auto sm:h-auto justify-between md:w-[800px] lg:pl-0  md:pl-[50px] md:grid md:grid-cols-2 xl:flex xl:justify-between xl:flex-row  flex flex-col gap-[50px]  ">
-                       { categoryArray.map((category,index)=> <div className=" md:w-[300px]  lg:w-[367px] sm:w-[367px] w-[267px] sm:h-[314px] h-[314px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  items-center justify-center gap-[10px]   ">
+                       { categoryArray.map((category,index)=> <div className=" md:w-[300px]  lg:w-[367px] sm:w-[367px] w-[267px] sm:h-[314px] h-[344px] bg-[#FFFFFF] shadow-xl rounded-[36px]  border-0 flex flex-col  items-center justify-center gap-[10px] pb-[40px]   ">
                             <div className='w-[137px] h-[95px]'>
                                 <img src={category.img} alt="image of an airplane" className='w-[100%] h-[100%]'/>
                             </div>
