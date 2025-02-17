@@ -15,53 +15,50 @@ function BookingDetails () {
     return(
         <>
         <section className="w-full h-auto flex justify-center">
-            <div className="sm:w-[1000px] xl:w-[900px] lg:h-[492px] h-[900px] lg:pl-[50px] xl:pl-0  mt-[80px] flex lg:flex-row flex-col lg:justify-between  items-center">
-                <div>
-                    <p className='sm:w-[90%] lg:w-[137px] text-center h-[27px] font-poppins font-semibold   text-[18px] text-[#5E6282]'>
+            <div className="sm:w-[1000px] xl:w-[900px] lg:h-[492px] h-[800px] lg:pl-[50px] xl:pl-0  mt-[80px] flex lg:flex-row flex-col lg:justify-between  items-center">
+                <div className=' flex flex-col lg:items-start items-center  '>
+                    <p className='sm:w-[90%] lg:w-[137px] w-[130px] text-center h-[27px] font-poppins font-semibold   text-[18px] text-[#5E6282]'>
                         Easy and Fast
                     </p>
-                    <h1 className='sm:w-[511px] sm:h-[130px] h-[80px] font-volx sm:font-bold font-extrabold  sm:text-[50px] text-[25px] text-[#14183E] sm:mt-[15px]  leading-[60px]'>
+                    <h1 className='sm:w-[511px] w-[300px] lg:h-[130px] h-[60px] sm:h-[80px] font-volx sm:font-bold font-extrabold  lg:text-[50px] sm:text-[30px] text-[17px] text-[#14183E] sm:mt-[15px] sm:leading-[40px] lg:leading-[60px]'>
                         Book your next trip 
                         in 3 easy steps
                     </h1>
 
-                    <div className='flex gap-[21px] items-center sm:justify-start justify-center sm:mt-[31px]'>
+                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] '>
                         <img src={logo1} alt="icon" />
-                        <div className='flex flex-col gap-[5px]'>
-                            <p className='w-[254px] h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
+                        <div className='flex flex-col gap-[5px] '>
+                            <p className='sm:w-[254px] w-[200px]  h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Choose Destination
                             </p>
-                            <p className='w-[327px] h-[40px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit. Urna, tortor tempus. 
+                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            Lorem ipsum dolor sit amet, consectetur. 
                             </p>
                         </div>
 
                     </div>
 
-                    <div className='flex gap-[21px] items-center  sm:justify-start justify-center  mt-[31px]'>
+                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] sm:mt-[15px] mt-[30px]'>
                         <img src={logo2} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
-                            <p className='w-[254px] h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
+                        <p className='sm:w-[254px] w-[200px]  h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Make Payment
                             </p>
-                            <p className='w-[327px] h-[40px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit. Urna, tortor tempus. 
+                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            Lorem ipsum dolor sit amet, consectetur. 
                             </p>
                         </div>
 
                     </div>
 
-                    <div className='flex gap-[21px] items-center  sm:justify-start justify-center mt-[31px]'>
+                    <div className=' flex gap-[21px] w-[400px]  items-center sm:justify-start justify-center lg:mt-[31px] sm:mt-[20px] mt-[30px]'>
                         <img src={logo3} alt="icon" />
                         <div className='flex flex-col gap-[5px]'>
-                            <p className='w-[254px] h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
+                        <p className='sm:w-[254px] w-[250px]  h-[20px] font-poppins font-bold sm:text-[16px] text-[14px] text-[#5E6282]'>
                             Reach Airport on Selected Date
                             </p>
-                            <p className='w-[327px] h-[40px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit. Urna, tortor tempus. 
+                            <p className='sm:w-[327px] w-[250px] sm:h-[20px] h-[20px] font-poppins sm:text-[16px] text-[14px] font-normal leading-[124.5%] text-[#5E6282]'>
+                            Lorem ipsum dolor sit amet, consectetur. 
                             </p>
                         </div>
 
@@ -71,7 +68,7 @@ function BookingDetails () {
 
 
 
-                <div className='sm:w-[455px] w-[370px] h-[459px]  flex flex-col justify-end  relative'>
+                <div className='sm:w-[455px] w-[330px] h-[459px]  flex flex-col justify-end  relative'>
                     <div className='w-[370px] h-[400px] bg-[#FFFFFF] rounded-[35px] flex flex-col gap-[26px] items-center pt-[20px] shadow-2xl'>
                         <div className='w-[321px] h-[161px] '>
                             <img src={image} alt="image of a lady at the maldives" />

@@ -39,7 +39,7 @@ function  Category (){
                         <p className="font-poppins lg:text-[20px] text-[18px] font-semibold text-[#5E6282]">
                         CATEGORY
                         </p>
-                        <h1 className="font-volx xl:text-[50px] lg:text-[45px] md:text-[35px]  sm:text-[28px]    text-[20px] font-bold text-[#14183E]">
+                        <h1 className="font-volx xl:text-[50px] lg:text-[45px] md:text-[35px]  sm:text-[28px]    text-[16px] font-bold text-[#14183E]">
                         We Offer Best Services
                         </h1>
                     </div>

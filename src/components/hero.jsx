@@ -8,19 +8,19 @@ function Hero (){
     return(
         <>
          <section  className="w-full h-auto flex justify-center   ">
-            <div className="xl:w-[1200px] w-[100vw] h-[664px] flex md:flex-row items-center justify-center flex-col md:ml-[45px]">
+            <div className="xl:w-[1200px] w-[100vw] sm:h-[664px] h-[550px] flex md:flex-row items-center justify-center flex-col md:ml-[45px]">
             <div className='w-[630px] h-[535px]   md:items-start flex  flex-col items-center md:ml-[20px] xl:ml-0'>
-                        <p className='w-[410px] h-[30px] font-poppins font-bold text-[20px] tracking-normal text-[#DF6951]'>
+                        <p className='sm:w-[410px] w-[350px] h-[30px] font-poppins font-bold sm:text-[20px] text-[16px] tracking-normal text-[#DF6951]'>
                             BEST DESTINATIONS AROUND THE WORLD
                         </p>
-                        <h1 className='font-volx w-[477px] h-[267px] md:ml-0 ml-[60px] font-bold text-[64px] leading-[89px] text-[#181E4B]'>
+                        <h1 className='font-volx sm:w-[477px] w-[405px] sm:h-[267px] h-[220px] md:ml-0 ml-[60px] font-bold sm:text-[64px] text-[50px]  sm:leading-[89px] leading-[70px] text-[#181E4B]'>
                             Travel, enjoy and live a new and full life
                         </h1>
-                        <p className='font-poppins font-medium text-[16px] md:ml-0  ml-[50px] leading-[30px] sm:w-[477px] w-[457px] h-[90] text-[#5E6282]'>
+                        <p className='font-poppins font-medium sm:text-[16px] text-[14px] md:ml-0  ml-[50px] leading-[30px] sm:w-[467px] w-[390px] h-[90px] text-[#5E6282]'>
                             Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
                         </p>
-                        <div className='flex mt-[34px] items-center'>
-                            <button className='cursor-pointer w-[170px] h-[60px] bg-[#F1A501] rounded-[10px] font-sans font-medium text-[18px] text-[#FFFFFF]'>
+                        <div className='flex mt-[34px] items-center w-[340px] sm:w-[410px]'>
+                            <button className='cursor-pointer sm:w-[170px] w-[130px] h-[60px] bg-[#F1A501] rounded-[10px] font-sans font-medium sm:text-[18px] text-[15px] text-[#FFFFFF]'>
                                 Find out more
                             </button>
                             <div className='cursor-pointer rounded-[50%] bg-[#DF6951]  shadow   w-[52px] h-[52px] ml-[44px] pt-[20px] pl-[3px] mr-[21px]'> 
