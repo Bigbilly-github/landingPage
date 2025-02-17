@@ -33,7 +33,7 @@ function  Category (){
 
     return(
         <>
-            <section className="w-[100vw] lg:h-auto md:h-[800px] sm:h-[1600px] h-[1350px] flex justify-center mt-[97px] lg:mt-[197px]   mb-[100px] " >
+            <section className="w-[100vw] lg:h-auto md:h-[800px] sm:h-[1600px] h-[1400px] flex justify-center mt-[97px] lg:mt-[197px]   mb-[100px] " >
                 <div className="xl:w-[1228px] xl:h-[525px] w-[50vw] flex flex-col items-center">
                     <div className=" flex items-center flex-col xl:mb-[108px] mb-[50px]">
                         <p className="font-poppins lg:text-[20px] text-[18px] font-semibold text-[#5E6282]">
