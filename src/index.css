@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+@theme  {
 
     
       --font-sans: "Open Sans" ;
@@ -8,28 +8,29 @@
       --font-volx: "Volkhov" ;
 
     
-  
-   
-
-  
-
-}
+} 
 
 
 body{
+
+
   background-image: url(/src/svg/body/Decore.svg), url(/src/svg/body/group4.svg);
   background-repeat: no-repeat no-repeat;
   background-position: top right,  1229px 966px;
-
   padding-top: 100px;
   background-color: #FFFFFF;
   
 
 }
+
+
+
 html, body {
   overflow-x: hidden; 
   width: 100vw; 
 }
+
+
 #root {
   overflow-x: hidden;
 }

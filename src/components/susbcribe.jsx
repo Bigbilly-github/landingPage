@@ -12,7 +12,8 @@ function Subscribe (){
                 Subscribe to get updates about Jadoo
                 </p>
                 <form  className='flex sm:gap-[30px] gap-[15px] w-'>
-                    <input type="email" placeholder='Email'  className='bg-[#FFFFFF] xl:w-[421px]  lg:w-[351px] md:w-[301px] w-[200px] h-[40px] md:h-[68px] rounded-[10px] pl-[20px] font-poppins font-normal text-[14px]' />
+                    <label htmlFor="email"></label>
+                    <input type="email" placeholder='Email' id='email' name='email' className='bg-[#FFFFFF] xl:w-[421px]  lg:w-[351px] md:w-[301px] w-[200px] h-[40px] md:h-[68px] rounded-[10px] pl-[20px] font-poppins font-normal text-[14px]' />
                     <button className='md:w-[180px] w-[80px] font-sans font-semibold text-[10px] md:text-[17px] border-0 text-[#FFFFFF] h-[40px] md:h-[68px] bg-[#FF7D68] rounded-[10px] '>
                     Subscribe
 
