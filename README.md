@@ -42,7 +42,7 @@ A modern, responsive, and visually engaging **Travel Agency Landing Page** built
 
 ## 🧑‍💻 Getting Started
 
-### 1. Clone the Repository
+ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/travel-agency-landing-page.git
